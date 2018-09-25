@@ -1,6 +1,0 @@
-framework module NYSMC {
-  umbrella header "NYSMC.h"
-
-  export *
-  module * { export * }
-}

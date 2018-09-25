@@ -11,8 +11,8 @@ TODO: Add long description of the pod here.
   s.author           = { '倪刚' => 'niyongsheng@outlook.com' }
   s.source           = { :git => 'https://github.com/niyongsheng/NYSMC.git', :tag => '0.0.1' }
 
-  s.platform     = :ios, '8.0'
-  s.vendored_frameworks = 'NYSMC.framework'
+  s.platform            = :ios, '8.0'
+  s.vendored_frameworks = 'Frameworks/NYSMC.framework'
   s.frameworks = 'Foundation', 'UIKit'
-  
+  s.requires_arc        = true
 end

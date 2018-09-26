@@ -21,11 +21,11 @@
 
 ## <a id="Need_Server_API"></a>Need Server API 
 ```java
-/** Integration step 0. */
+/** 需要后端组的同学准备一个接口 */
 // Method: POST
 // Server: http://xxx.NYSMC.com:8080
-// API: /shelf/getReviewData
-// Parameters: parames
+// API: /api/getReviewData
+// Parameters: PARM
 /* JSON返回数据结构：*/
 {
     "param": {},
@@ -52,17 +52,20 @@
 /** Integration step 1. */
 #import <NYSC/NYSCake.h>
 
+#import "SheelViewController.h"
+#import "ApplicationViewController.h"
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 初始化NYSC
     [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://xxx.qmook.com:8080/shelf" ValidateParameters:nil BootMethod:NYSCBootMethod_Cold];
     // 选择分支
     [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Version errorBootFromType:BootFrom_Application matchSheelBlock:^{
     	// 马甲
-        self.window.rootViewController = [[NYSCSheelViewController alloc] init];
+        self.window.rootViewController = [[SheelViewController alloc] init];
         [self.window makeKeyAndVisible];
     } ApplicationBlock:^{
     	// 应用
-        self.window.rootViewController = [[NYSCApplicationViewController alloc] init];
+        self.window.rootViewController = [[ApplicationViewController alloc] init];
         [self.window makeKeyAndVisible];
     }];
     return YES;

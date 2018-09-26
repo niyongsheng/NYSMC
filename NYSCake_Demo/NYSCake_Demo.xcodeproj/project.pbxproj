@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8ABF83A2159C60D00F3D3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */; };
+		C8ABF8402159C60D00F3D3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF83E2159C60D00F3D3E1 /* Main.storyboard */; };
+		C8ABF8422159C60E00F3D3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8412159C60E00F3D3E1 /* Assets.xcassets */; };
+		C8ABF8452159C60E00F3D3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8432159C60E00F3D3E1 /* LaunchScreen.storyboard */; };
+		C8ABF8482159C60E00F3D3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8472159C60E00F3D3E1 /* main.m */; };
+		C8ABF8522159C60E00F3D3E1 /* NYSCake_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8512159C60E00F3D3E1 /* NYSCake_DemoTests.m */; };
+		C8ABF86A2159C65000F3D3E1 /* backOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF85E2159C65000F3D3E1 /* backOff@3x.png */; };
+		C8ABF86B2159C65000F3D3E1 /* forward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF85F2159C65000F3D3E1 /* forward@3x.png */; };
+		C8ABF86C2159C65000F3D3E1 /* homePage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8602159C65000F3D3E1 /* homePage@3x.png */; };
+		C8ABF86D2159C65000F3D3E1 /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8612159C65000F3D3E1 /* refresh@3x.png */; };
+		C8ABF86E2159C65000F3D3E1 /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8622159C65000F3D3E1 /* share@3x.png */; };
+		C8ABF86F2159C65000F3D3E1 /* NYSCake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ABF8692159C65000F3D3E1 /* NYSCake.a */; };
+		C8ABF8732159CB4000F3D3E1 /* NYSCSheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8712159CB4000F3D3E1 /* NYSCSheelViewController.m */; };
+		C8ABF8742159CB4000F3D3E1 /* NYSCSheelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8722159CB4000F3D3E1 /* NYSCSheelViewController.xib */; };
+		C8ABF8782159CB5500F3D3E1 /* NYSCApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8762159CB5500F3D3E1 /* NYSCApplicationViewController.m */; };
+		C8ABF8792159CB5500F3D3E1 /* NYSCApplicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8772159CB5500F3D3E1 /* NYSCApplicationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8ABF84E2159C60E00F3D3E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8ABF82D2159C60D00F3D3E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8ABF8342159C60D00F3D3E1;
+			remoteInfo = NYSCake_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8ABF8352159C60D00F3D3E1 /* NYSCake_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYSCake_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8ABF8382159C60D00F3D3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8ABF83F2159C60D00F3D3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8ABF8412159C60E00F3D3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8ABF8442159C60E00F3D3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8ABF8462159C60E00F3D3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8ABF8472159C60E00F3D3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8ABF84D2159C60E00F3D3E1 /* NYSCake_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYSCake_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8ABF8512159C60E00F3D3E1 /* NYSCake_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSCake_DemoTests.m; sourceTree = "<group>"; };
+		C8ABF8532159C60E00F3D3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8ABF85E2159C65000F3D3E1 /* backOff@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backOff@3x.png"; sourceTree = "<group>"; };
+		C8ABF85F2159C65000F3D3E1 /* forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@3x.png"; sourceTree = "<group>"; };
+		C8ABF8602159C65000F3D3E1 /* homePage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homePage@3x.png"; sourceTree = "<group>"; };
+		C8ABF8612159C65000F3D3E1 /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
+		C8ABF8622159C65000F3D3E1 /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@3x.png"; sourceTree = "<group>"; };
+		C8ABF8652159C65000F3D3E1 /* NYSCake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSCake.h; sourceTree = "<group>"; };
+		C8ABF8662159C65000F3D3E1 /* NYSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSConfig.h; sourceTree = "<group>"; };
+		C8ABF8672159C65000F3D3E1 /* NYSCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSCTool.h; sourceTree = "<group>"; };
+		C8ABF8682159C65000F3D3E1 /* NYSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSWebViewController.h; sourceTree = "<group>"; };
+		C8ABF8692159C65000F3D3E1 /* NYSCake.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = NYSCake.a; sourceTree = "<group>"; };
+		C8ABF8702159CB4000F3D3E1 /* NYSCSheelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSCSheelViewController.h; sourceTree = "<group>"; };
+		C8ABF8712159CB4000F3D3E1 /* NYSCSheelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSCSheelViewController.m; sourceTree = "<group>"; };
+		C8ABF8722159CB4000F3D3E1 /* NYSCSheelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYSCSheelViewController.xib; sourceTree = "<group>"; };
+		C8ABF8752159CB5500F3D3E1 /* NYSCApplicationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSCApplicationViewController.h; sourceTree = "<group>"; };
+		C8ABF8762159CB5500F3D3E1 /* NYSCApplicationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSCApplicationViewController.m; sourceTree = "<group>"; };
+		C8ABF8772159CB5500F3D3E1 /* NYSCApplicationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYSCApplicationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8ABF8322159C60D00F3D3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8ABF86F2159C65000F3D3E1 /* NYSCake.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8ABF84A2159C60E00F3D3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8ABF82C2159C60D00F3D3E1 = {
+			isa = PBXGroup;
+			children = (
+				C8ABF8372159C60D00F3D3E1 /* NYSCake_Demo */,
+				C8ABF8502159C60E00F3D3E1 /* NYSCake_DemoTests */,
+				C8ABF8362159C60D00F3D3E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8ABF8362159C60D00F3D3E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8ABF8352159C60D00F3D3E1 /* NYSCake_Demo.app */,
+				C8ABF84D2159C60E00F3D3E1 /* NYSCake_DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8ABF8372159C60D00F3D3E1 /* NYSCake_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C8ABF85C2159C65000F3D3E1 /* NYSC */,
+				C8ABF8382159C60D00F3D3E1 /* AppDelegate.h */,
+				C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */,
+				C8ABF8752159CB5500F3D3E1 /* NYSCApplicationViewController.h */,
+				C8ABF8762159CB5500F3D3E1 /* NYSCApplicationViewController.m */,
+				C8ABF8772159CB5500F3D3E1 /* NYSCApplicationViewController.xib */,
+				C8ABF8702159CB4000F3D3E1 /* NYSCSheelViewController.h */,
+				C8ABF8712159CB4000F3D3E1 /* NYSCSheelViewController.m */,
+				C8ABF8722159CB4000F3D3E1 /* NYSCSheelViewController.xib */,
+				C8ABF83E2159C60D00F3D3E1 /* Main.storyboard */,
+				C8ABF8412159C60E00F3D3E1 /* Assets.xcassets */,
+				C8ABF8432159C60E00F3D3E1 /* LaunchScreen.storyboard */,
+				C8ABF8462159C60E00F3D3E1 /* Info.plist */,
+				C8ABF8472159C60E00F3D3E1 /* main.m */,
+			);
+			path = NYSCake_Demo;
+			sourceTree = "<group>";
+		};
+		C8ABF8502159C60E00F3D3E1 /* NYSCake_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8ABF8512159C60E00F3D3E1 /* NYSCake_DemoTests.m */,
+				C8ABF8532159C60E00F3D3E1 /* Info.plist */,
+			);
+			path = NYSCake_DemoTests;
+			sourceTree = "<group>";
+		};
+		C8ABF85C2159C65000F3D3E1 /* NYSC */ = {
+			isa = PBXGroup;
+			children = (
+				C8ABF85D2159C65000F3D3E1 /* Images */,
+				C8ABF8652159C65000F3D3E1 /* NYSCake.h */,
+				C8ABF8662159C65000F3D3E1 /* NYSConfig.h */,
+				C8ABF8672159C65000F3D3E1 /* NYSCTool.h */,
+				C8ABF8682159C65000F3D3E1 /* NYSWebViewController.h */,
+				C8ABF8692159C65000F3D3E1 /* NYSCake.a */,
+			);
+			path = NYSC;
+			sourceTree = "<group>";
+		};
+		C8ABF85D2159C65000F3D3E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C8ABF85E2159C65000F3D3E1 /* backOff@3x.png */,
+				C8ABF85F2159C65000F3D3E1 /* forward@3x.png */,
+				C8ABF8602159C65000F3D3E1 /* homePage@3x.png */,
+				C8ABF8612159C65000F3D3E1 /* refresh@3x.png */,
+				C8ABF8622159C65000F3D3E1 /* share@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8ABF8342159C60D00F3D3E1 /* NYSCake_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8ABF8562159C60E00F3D3E1 /* Build configuration list for PBXNativeTarget "NYSCake_Demo" */;
+			buildPhases = (
+				C8ABF8312159C60D00F3D3E1 /* Sources */,
+				C8ABF8322159C60D00F3D3E1 /* Frameworks */,
+				C8ABF8332159C60D00F3D3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYSCake_Demo;
+			productName = NYSCake_Demo;
+			productReference = C8ABF8352159C60D00F3D3E1 /* NYSCake_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8ABF84C2159C60E00F3D3E1 /* NYSCake_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8ABF8592159C60E00F3D3E1 /* Build configuration list for PBXNativeTarget "NYSCake_DemoTests" */;
+			buildPhases = (
+				C8ABF8492159C60E00F3D3E1 /* Sources */,
+				C8ABF84A2159C60E00F3D3E1 /* Frameworks */,
+				C8ABF84B2159C60E00F3D3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8ABF84F2159C60E00F3D3E1 /* PBXTargetDependency */,
+			);
+			name = NYSCake_DemoTests;
+			productName = NYSCake_DemoTests;
+			productReference = C8ABF84D2159C60E00F3D3E1 /* NYSCake_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8ABF82D2159C60D00F3D3E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NYSC;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = NiYongsheng;
+				TargetAttributes = {
+					C8ABF8342159C60D00F3D3E1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C8ABF84C2159C60E00F3D3E1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C8ABF8342159C60D00F3D3E1;
+					};
+				};
+			};
+			buildConfigurationList = C8ABF8302159C60D00F3D3E1 /* Build configuration list for PBXProject "NYSCake_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8ABF82C2159C60D00F3D3E1;
+			productRefGroup = C8ABF8362159C60D00F3D3E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8ABF8342159C60D00F3D3E1 /* NYSCake_Demo */,
+				C8ABF84C2159C60E00F3D3E1 /* NYSCake_DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8ABF8332159C60D00F3D3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8ABF86A2159C65000F3D3E1 /* backOff@3x.png in Resources */,
+				C8ABF8742159CB4000F3D3E1 /* NYSCSheelViewController.xib in Resources */,
+				C8ABF8452159C60E00F3D3E1 /* LaunchScreen.storyboard in Resources */,
+				C8ABF86D2159C65000F3D3E1 /* refresh@3x.png in Resources */,
+				C8ABF8422159C60E00F3D3E1 /* Assets.xcassets in Resources */,
+				C8ABF86C2159C65000F3D3E1 /* homePage@3x.png in Resources */,
+				C8ABF8792159CB5500F3D3E1 /* NYSCApplicationViewController.xib in Resources */,
+				C8ABF86E2159C65000F3D3E1 /* share@3x.png in Resources */,
+				C8ABF86B2159C65000F3D3E1 /* forward@3x.png in Resources */,
+				C8ABF8402159C60D00F3D3E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8ABF84B2159C60E00F3D3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8ABF8312159C60D00F3D3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8ABF8732159CB4000F3D3E1 /* NYSCSheelViewController.m in Sources */,
+				C8ABF8482159C60E00F3D3E1 /* main.m in Sources */,
+				C8ABF8782159CB5500F3D3E1 /* NYSCApplicationViewController.m in Sources */,
+				C8ABF83A2159C60D00F3D3E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8ABF8492159C60E00F3D3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8ABF8522159C60E00F3D3E1 /* NYSCake_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8ABF84F2159C60E00F3D3E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8ABF8342159C60D00F3D3E1 /* NYSCake_Demo */;
+			targetProxy = C8ABF84E2159C60E00F3D3E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8ABF83E2159C60D00F3D3E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8ABF83F2159C60D00F3D3E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8ABF8432159C60E00F3D3E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8ABF8442159C60E00F3D3E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8ABF8542159C60E00F3D3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8ABF8552159C60E00F3D3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8ABF8572159C60E00F3D3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NYSCake_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NYSCake_Demo/NYSC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYS.NYSCake-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8ABF8582159C60E00F3D3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NYSCake_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NYSCake_Demo/NYSC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYS.NYSCake-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8ABF85A2159C60E00F3D3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NYSCake_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYS.NYSCake-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYSCake_Demo.app/NYSCake_Demo";
+			};
+			name = Debug;
+		};
+		C8ABF85B2159C60E00F3D3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NYSCake_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NYS.NYSCake-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYSCake_Demo.app/NYSCake_Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8ABF8302159C60D00F3D3E1 /* Build configuration list for PBXProject "NYSCake_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8ABF8542159C60E00F3D3E1 /* Debug */,
+				C8ABF8552159C60E00F3D3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8ABF8562159C60E00F3D3E1 /* Build configuration list for PBXNativeTarget "NYSCake_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8ABF8572159C60E00F3D3E1 /* Debug */,
+				C8ABF8582159C60E00F3D3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8ABF8592159C60E00F3D3E1 /* Build configuration list for PBXNativeTarget "NYSCake_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8ABF85A2159C60E00F3D3E1 /* Debug */,
+				C8ABF85B2159C60E00F3D3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8ABF82D2159C60D00F3D3E1 /* Project object */;
+}

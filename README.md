@@ -4,14 +4,14 @@ NYSMC
 * 自动选择加载“壳应用”/“真应用”的简单框架。
 * Auto Choose Sheel/Application framework.
 
-## <a id="How_to_use:"></a>How to use NYSMC
+## <a id="How_to_use:"></a>How to use:
 * Installation with CocoaPods：`pod 'NYSMC'`
 * Manual import：
     * Drag All files in the `NYSMC` folder to project
     * Import the main file：`#import <NYSCake.h>`
 
 ## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
-<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/IMG_0140.TRIM.mov" width="200" height="300">
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/IMG_0140.TRIM.mov" width="200" height="350">
 
 <!-- ## <a id="The_Framework_Structure_Chart_of_NYSMC"></a>The Framework Structure Chart of NYSMC
 ![](http://images0.cnblogs.com/blog2015/497279/201506/132232456139177.png)
@@ -35,10 +35,10 @@ NYSMC
         "gmtCreate": "2018-06-25 11:12:35",
         "gmtModify": null,
         "id": 1,
-        "version": "1.0", //（版本号）
+        "version": "1.0", //（审核中版本号）
         "reviewTime": 1534419240000, //（预计审核完成时间）
-        "url": "www.baidu.com", //（链接地址）
-        "status": 0 //（开关：0关闭  1开启）
+        "url": "github.com/niyongsheng", //（链接地址）
+        "status": 0 //（马甲开关：0关闭  1开启）
     },
     "msg": null,
     "list": null,
@@ -58,7 +58,7 @@ NYSMC
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 初始化NYSC
-    [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://xxx.qmook.com:8080/shelf" ValidateParameters:nil BootMethod:NYSCBootMethod_Cold];
+    [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://xxx.NYSMC.com:8080/api/getReviewData" ValidateParameters:PARM BootMethod:NYSCBootMethod_Cold];
     // 选择分支
     [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Version errorBootFromType:BootFrom_Application matchSheelBlock:^{
     	// 马甲

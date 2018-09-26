@@ -1,17 +1,17 @@
 ![(logo)](https://github.com/niyongsheng/NYSMC/blob/master/MC_logo.png?raw=true)
- NYSMC
+NYSMC
 ===
 * 自动选择加载“壳应用”/“真应用”的简单框架。
 * Auto Choose Sheel/Application framework.
 
-## <a id="How_to_use_NYSMC"></a>How to use NYSMC
+## <a id="How_to_use:"></a>How to use NYSMC
 * Installation with CocoaPods：`pod 'NYSMC'`
 * Manual import：
     * Drag All files in the `NYSMC` folder to project
     * Import the main file：`#import <NYSCake.h>`
 
 ## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
-<img src="http://images0.cnblogs.com/blog2015/497279/201506/141212365041650.png" width="200" height="300">
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/IMG_0140.TRIM.mov" width="200" height="300">
 
 <!-- ## <a id="The_Framework_Structure_Chart_of_NYSMC"></a>The Framework Structure Chart of NYSMC
 ![](http://images0.cnblogs.com/blog2015/497279/201506/132232456139177.png)

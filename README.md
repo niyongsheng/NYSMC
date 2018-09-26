@@ -12,7 +12,7 @@ NYSMC
 * Installation with CocoaPods：`pod 'NYSMC'`
 * Manual import：
     * Drag All files in the `NYSMC` folder to project
-    * Import the main file：`#import <NYSCake.h>`
+    * Import the main file：`#import <NYSMC/NYSMC.h>`
 
 ## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
@@ -55,7 +55,7 @@ NYSMC
 ## <a id="AppDelegate.m"></a>AppDelegate.m
 ```objc
 /** Integration step 1. */
-#import <NYSC/NYSCake.h>
+#import <NYSMC/NYSMC.h>
 
 #import "SheelViewController.h"
 #import "ApplicationViewController.h"
@@ -80,8 +80,7 @@ NYSMC
 ```objc
 /** Integration step 2. */
 #import "SheelViewController.h"
-#import <NYSC/NYSCake.h>
-#import <NYSC/NYSWebViewController.h>
+#import <NYSMC/NYSMC.h>
 
 @interface NYSCSheelViewController ()
 - (IBAction)safari:(id)sender;

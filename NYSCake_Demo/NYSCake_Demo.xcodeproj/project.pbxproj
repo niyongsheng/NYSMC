@@ -36,6 +36,7 @@
 		244C1023C2CACA5C463C6CCB /* libPods-NYSCake_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYSCake_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AA5E327645D4B566B394F8 /* Pods-NYSCake_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_DemoTests/Pods-NYSCake_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		9912D4030BDB8686A0AA8168 /* Pods-NYSCake_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_Demo/Pods-NYSCake_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		C800D6D6215B961800ED5DD5 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		C8ABF8352159C60D00F3D3E1 /* NYSCake_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYSCake_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ABF8382159C60D00F3D3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 				C8ABF8432159C60E00F3D3E1 /* LaunchScreen.storyboard */,
 				C8ABF8462159C60E00F3D3E1 /* Info.plist */,
 				C8ABF8472159C60E00F3D3E1 /* main.m */,
+				C800D6D6215B961800ED5DD5 /* images.bundle */,
 			);
 			path = NYSCake_Demo;
 			sourceTree = "<group>";

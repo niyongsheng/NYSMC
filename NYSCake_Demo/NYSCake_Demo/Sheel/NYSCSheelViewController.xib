@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NYSCSheelViewController">
             <connections>
+                <outlet property="customBtn" destination="Vzj-Qi-pkh" id="0kN-84-hOG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -36,12 +38,22 @@
                         <action selector="safari:" destination="-1" eventType="touchUpInside" id="j72-bO-YGs"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzj-Qi-pkh">
+                    <rect key="frame" x="157.5" y="222.5" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="127-3U-shl"/>
+                        <constraint firstAttribute="width" secondItem="Vzj-Qi-pkh" secondAttribute="height" multiplier="1:1" id="5Tb-Un-bgO"/>
+                    </constraints>
+                    <state key="normal" image="homePage.png"/>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.95686274510000002" green="0.47058823529999999" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Bmj-EN-NBk" firstAttribute="top" secondItem="tUf-dv-VzB" secondAttribute="bottom" constant="30" id="GRa-gp-zQF"/>
                 <constraint firstItem="tUf-dv-VzB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="X2r-BE-Aoe"/>
+                <constraint firstItem="Vzj-Qi-pkh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eYO-om-pit"/>
                 <constraint firstItem="tUf-dv-VzB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gMU-Wb-g5U"/>
+                <constraint firstItem="tUf-dv-VzB" firstAttribute="top" secondItem="Vzj-Qi-pkh" secondAttribute="bottom" constant="30" id="vyW-f7-lBg"/>
                 <constraint firstItem="Bmj-EN-NBk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="y0D-MN-vlW"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
@@ -50,5 +62,6 @@
     </objects>
     <resources>
         <image name="Safari" width="668" height="668"/>
+        <image name="homePage.png" width="60" height="60"/>
     </resources>
 </document>

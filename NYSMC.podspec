@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.platform        = :ios, '8.0'
   #s.source_files		= 'Frameworks/**/*.{h,m}'
-  s.resources       = 'Resources/**/*'
+  s.resources       = 'Resources/images.bundle'
   s.vendored_frameworks = 'Frameworks/NYSMC.framework'
   s.frameworks			= 'Foundation', 'UIKit'
   #s.requires_arc   = true

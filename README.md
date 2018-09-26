@@ -3,7 +3,6 @@ NYSMC
 ===
 [![](https://img.shields.io/badge/platform-iOS-orange.svg)](https://developer.apple.com/ios/)
 [![](https://img.shields.io/badge/pod-1.0.1-brightgreen.svg)](https://github.com/CocoaPods/CocoaPods)
-[![](https://img.shields.io/github/release/carthage/carthage.svg)](https://github.com/niyongsheng/NYSMC/releases)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/niyongsheng/NYSMC/blob/master/README.md)
 ===
 * 自动选择加载“壳应用”/“真应用”的简单框架。

@@ -1,6 +1,10 @@
 ![(logo)](https://github.com/niyongsheng/NYSMC/blob/master/MC_logo.png?raw=true)
 NYSMC
 ===
+[![](https://img.shields.io/badge/platform-iOS-orange.svg)](https://developer.apple.com/ios/)
+[![](https://img.shields.io/badge/pod-1.0.1-brightgreen.svg)](https://github.com/CocoaPods/CocoaPods)
+[![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/niyongsheng/NYSMC/blob/master/README.md)
+===
 * 自动选择加载“壳应用”/“真应用”的简单框架。
 * Auto Choose Sheel/Application framework.
 
@@ -11,7 +15,7 @@ NYSMC
     * Import the main file：`#import <NYSCake.h>`
 
 ## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
-<img src="https://github.com/niyongsheng/NYSMC/blob/master/IMG_0140.TRIM.mp4" width="200" height="350">
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
 
 <!-- ## <a id="The_Framework_Structure_Chart_of_NYSMC"></a>The Framework Structure Chart of NYSMC
 ![](http://images0.cnblogs.com/blog2015/497279/201506/132232456139177.png)

@@ -1,13 +1,13 @@
 ![(logo)](https://github.com/niyongsheng/NYSMC/blob/master/MC_logo.png?raw=true)
 NYSMC
 ===
-* 自动选择加载“壳应用”/“真应用”的简单框架。
-* Auto Choose Sheel/Application framework.
-
 [![](https://img.shields.io/badge/platform-iOS-orange.svg)](https://developer.apple.com/ios/)
 [![](https://img.shields.io/badge/pod-1.0.1-brightgreen.svg)](https://github.com/CocoaPods/CocoaPods)
 [![](https://img.shields.io/badge/carthage-compatible-red.svg)](https://github.com/Carthage/Carthage)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/niyongsheng/NYSMC/master/README.md)
+
+* 自动选择加载“壳应用”/“真应用”的简单框架。
+* Auto Choose Sheel/Application framework.
 
 ## <a id="How_to_use:"></a>How to use:
 * Installation with CocoaPods：`pod 'NYSMC'`

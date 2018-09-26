@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NYSWebViewController : UIViewController
+
 - (void)refresh;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "NYSC/NYSCake.h"
+#import <NYSMC/NYSMC.h>
 
 #import "NYSCSheelViewController.h"
 #import "NYSCApplicationViewController.h"

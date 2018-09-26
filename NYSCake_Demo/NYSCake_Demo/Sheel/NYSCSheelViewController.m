@@ -7,8 +7,7 @@
 //
 
 #import "NYSCSheelViewController.h"
-#import "NYSC/NYSCake.h"
-#import "NYSC/NYSWebViewController.h"
+#import <NYSMC/NYSMC.h>
 
 @interface NYSCSheelViewController ()
 - (IBAction)safari:(id)sender;

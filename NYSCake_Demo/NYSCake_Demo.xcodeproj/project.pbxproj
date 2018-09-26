@@ -15,12 +15,6 @@
 		C8ABF8452159C60E00F3D3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8432159C60E00F3D3E1 /* LaunchScreen.storyboard */; };
 		C8ABF8482159C60E00F3D3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8472159C60E00F3D3E1 /* main.m */; };
 		C8ABF8522159C60E00F3D3E1 /* NYSCake_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8512159C60E00F3D3E1 /* NYSCake_DemoTests.m */; };
-		C8ABF86A2159C65000F3D3E1 /* backOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF85E2159C65000F3D3E1 /* backOff@3x.png */; };
-		C8ABF86B2159C65000F3D3E1 /* forward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF85F2159C65000F3D3E1 /* forward@3x.png */; };
-		C8ABF86C2159C65000F3D3E1 /* homePage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8602159C65000F3D3E1 /* homePage@3x.png */; };
-		C8ABF86D2159C65000F3D3E1 /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8612159C65000F3D3E1 /* refresh@3x.png */; };
-		C8ABF86E2159C65000F3D3E1 /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8622159C65000F3D3E1 /* share@3x.png */; };
-		C8ABF86F2159C65000F3D3E1 /* NYSCake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ABF8692159C65000F3D3E1 /* NYSCake.a */; };
 		C8ABF8732159CB4000F3D3E1 /* NYSCSheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8712159CB4000F3D3E1 /* NYSCSheelViewController.m */; };
 		C8ABF8742159CB4000F3D3E1 /* NYSCSheelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8722159CB4000F3D3E1 /* NYSCSheelViewController.xib */; };
 		C8ABF8782159CB5500F3D3E1 /* NYSCApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8762159CB5500F3D3E1 /* NYSCApplicationViewController.m */; };
@@ -53,16 +47,6 @@
 		C8ABF84D2159C60E00F3D3E1 /* NYSCake_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYSCake_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ABF8512159C60E00F3D3E1 /* NYSCake_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSCake_DemoTests.m; sourceTree = "<group>"; };
 		C8ABF8532159C60E00F3D3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8ABF85E2159C65000F3D3E1 /* backOff@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backOff@3x.png"; sourceTree = "<group>"; };
-		C8ABF85F2159C65000F3D3E1 /* forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@3x.png"; sourceTree = "<group>"; };
-		C8ABF8602159C65000F3D3E1 /* homePage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homePage@3x.png"; sourceTree = "<group>"; };
-		C8ABF8612159C65000F3D3E1 /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
-		C8ABF8622159C65000F3D3E1 /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@3x.png"; sourceTree = "<group>"; };
-		C8ABF8652159C65000F3D3E1 /* NYSCake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSCake.h; sourceTree = "<group>"; };
-		C8ABF8662159C65000F3D3E1 /* NYSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSConfig.h; sourceTree = "<group>"; };
-		C8ABF8672159C65000F3D3E1 /* NYSCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSCTool.h; sourceTree = "<group>"; };
-		C8ABF8682159C65000F3D3E1 /* NYSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSWebViewController.h; sourceTree = "<group>"; };
-		C8ABF8692159C65000F3D3E1 /* NYSCake.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = NYSCake.a; sourceTree = "<group>"; };
 		C8ABF8702159CB4000F3D3E1 /* NYSCSheelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSCSheelViewController.h; sourceTree = "<group>"; };
 		C8ABF8712159CB4000F3D3E1 /* NYSCSheelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSCSheelViewController.m; sourceTree = "<group>"; };
 		C8ABF8722159CB4000F3D3E1 /* NYSCSheelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYSCSheelViewController.xib; sourceTree = "<group>"; };
@@ -78,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ABF86F2159C65000F3D3E1 /* NYSCake.a in Frameworks */,
 				1310CD074DACF8B0F9EBD361 /* libPods-NYSCake_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +97,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C800D6CE215B81EB00ED5DD5 /* Sheel */ = {
+			isa = PBXGroup;
+			children = (
+				C8ABF8702159CB4000F3D3E1 /* NYSCSheelViewController.h */,
+				C8ABF8712159CB4000F3D3E1 /* NYSCSheelViewController.m */,
+				C8ABF8722159CB4000F3D3E1 /* NYSCSheelViewController.xib */,
+			);
+			path = Sheel;
+			sourceTree = "<group>";
+		};
+		C800D6CF215B81F500ED5DD5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C8ABF8752159CB5500F3D3E1 /* NYSCApplicationViewController.h */,
+				C8ABF8762159CB5500F3D3E1 /* NYSCApplicationViewController.m */,
+				C8ABF8772159CB5500F3D3E1 /* NYSCApplicationViewController.xib */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		C8ABF82C2159C60D00F3D3E1 = {
 			isa = PBXGroup;
 			children = (
@@ -137,15 +140,10 @@
 		C8ABF8372159C60D00F3D3E1 /* NYSCake_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C8ABF85C2159C65000F3D3E1 /* NYSC */,
+				C800D6CE215B81EB00ED5DD5 /* Sheel */,
+				C800D6CF215B81F500ED5DD5 /* Application */,
 				C8ABF8382159C60D00F3D3E1 /* AppDelegate.h */,
 				C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */,
-				C8ABF8752159CB5500F3D3E1 /* NYSCApplicationViewController.h */,
-				C8ABF8762159CB5500F3D3E1 /* NYSCApplicationViewController.m */,
-				C8ABF8772159CB5500F3D3E1 /* NYSCApplicationViewController.xib */,
-				C8ABF8702159CB4000F3D3E1 /* NYSCSheelViewController.h */,
-				C8ABF8712159CB4000F3D3E1 /* NYSCSheelViewController.m */,
-				C8ABF8722159CB4000F3D3E1 /* NYSCSheelViewController.xib */,
 				C8ABF83E2159C60D00F3D3E1 /* Main.storyboard */,
 				C8ABF8412159C60E00F3D3E1 /* Assets.xcassets */,
 				C8ABF8432159C60E00F3D3E1 /* LaunchScreen.storyboard */,
@@ -162,31 +160,6 @@
 				C8ABF8532159C60E00F3D3E1 /* Info.plist */,
 			);
 			path = NYSCake_DemoTests;
-			sourceTree = "<group>";
-		};
-		C8ABF85C2159C65000F3D3E1 /* NYSC */ = {
-			isa = PBXGroup;
-			children = (
-				C8ABF85D2159C65000F3D3E1 /* Images */,
-				C8ABF8652159C65000F3D3E1 /* NYSCake.h */,
-				C8ABF8662159C65000F3D3E1 /* NYSConfig.h */,
-				C8ABF8672159C65000F3D3E1 /* NYSCTool.h */,
-				C8ABF8682159C65000F3D3E1 /* NYSWebViewController.h */,
-				C8ABF8692159C65000F3D3E1 /* NYSCake.a */,
-			);
-			path = NYSC;
-			sourceTree = "<group>";
-		};
-		C8ABF85D2159C65000F3D3E1 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				C8ABF85E2159C65000F3D3E1 /* backOff@3x.png */,
-				C8ABF85F2159C65000F3D3E1 /* forward@3x.png */,
-				C8ABF8602159C65000F3D3E1 /* homePage@3x.png */,
-				C8ABF8612159C65000F3D3E1 /* refresh@3x.png */,
-				C8ABF8622159C65000F3D3E1 /* share@3x.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,15 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ABF86A2159C65000F3D3E1 /* backOff@3x.png in Resources */,
 				C8ABF8742159CB4000F3D3E1 /* NYSCSheelViewController.xib in Resources */,
 				C8ABF8452159C60E00F3D3E1 /* LaunchScreen.storyboard in Resources */,
-				C8ABF86D2159C65000F3D3E1 /* refresh@3x.png in Resources */,
 				C8ABF8422159C60E00F3D3E1 /* Assets.xcassets in Resources */,
-				C8ABF86C2159C65000F3D3E1 /* homePage@3x.png in Resources */,
 				C8ABF8792159CB5500F3D3E1 /* NYSCApplicationViewController.xib in Resources */,
-				C8ABF86E2159C65000F3D3E1 /* share@3x.png in Resources */,
-				C8ABF86B2159C65000F3D3E1 /* forward@3x.png in Resources */,
 				C8ABF8402159C60D00F3D3E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N92S3NU839;
 				INFOPLIST_FILE = NYSCake_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N92S3NU839;
 				INFOPLIST_FILE = NYSCake_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

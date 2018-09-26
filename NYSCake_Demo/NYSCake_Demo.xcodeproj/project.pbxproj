@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1310CD074DACF8B0F9EBD361 /* libPods-NYSCake_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 244C1023C2CACA5C463C6CCB /* libPods-NYSCake_Demo.a */; };
+		AA45BFF305902FEE00079838 /* libPods-NYSCake_DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CC3A06DD924669A64C57A1 /* libPods-NYSCake_DemoTests.a */; };
 		C8ABF83A2159C60D00F3D3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */; };
 		C8ABF8402159C60D00F3D3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF83E2159C60D00F3D3E1 /* Main.storyboard */; };
 		C8ABF8422159C60E00F3D3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8ABF8412159C60E00F3D3E1 /* Assets.xcassets */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA05448C9267F7C91B7F7B7 /* Pods-NYSCake_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_DemoTests/Pods-NYSCake_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		244C1023C2CACA5C463C6CCB /* libPods-NYSCake_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYSCake_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AA5E327645D4B566B394F8 /* Pods-NYSCake_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_DemoTests/Pods-NYSCake_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9912D4030BDB8686A0AA8168 /* Pods-NYSCake_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_Demo/Pods-NYSCake_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C8ABF8352159C60D00F3D3E1 /* NYSCake_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYSCake_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ABF8382159C60D00F3D3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +69,8 @@
 		C8ABF8752159CB5500F3D3E1 /* NYSCApplicationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYSCApplicationViewController.h; sourceTree = "<group>"; };
 		C8ABF8762159CB5500F3D3E1 /* NYSCApplicationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYSCApplicationViewController.m; sourceTree = "<group>"; };
 		C8ABF8772159CB5500F3D3E1 /* NYSCApplicationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYSCApplicationViewController.xib; sourceTree = "<group>"; };
+		EC3A70C787BF5676D7BE30CA /* Pods-NYSCake_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_Demo/Pods-NYSCake_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F1CC3A06DD924669A64C57A1 /* libPods-NYSCake_DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYSCake_DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8ABF86F2159C65000F3D3E1 /* NYSCake.a in Frameworks */,
+				1310CD074DACF8B0F9EBD361 /* libPods-NYSCake_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,18 +87,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA45BFF305902FEE00079838 /* libPods-NYSCake_DemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		985F25AE020EED570F5F8AD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				244C1023C2CACA5C463C6CCB /* libPods-NYSCake_Demo.a */,
+				F1CC3A06DD924669A64C57A1 /* libPods-NYSCake_DemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69B65E38FE214F7F439AD63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9912D4030BDB8686A0AA8168 /* Pods-NYSCake_Demo.debug.xcconfig */,
+				EC3A70C787BF5676D7BE30CA /* Pods-NYSCake_Demo.release.xcconfig */,
+				0FA05448C9267F7C91B7F7B7 /* Pods-NYSCake_DemoTests.debug.xcconfig */,
+				70AA5E327645D4B566B394F8 /* Pods-NYSCake_DemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C8ABF82C2159C60D00F3D3E1 = {
 			isa = PBXGroup;
 			children = (
 				C8ABF8372159C60D00F3D3E1 /* NYSCake_Demo */,
 				C8ABF8502159C60E00F3D3E1 /* NYSCake_DemoTests */,
 				C8ABF8362159C60D00F3D3E1 /* Products */,
+				A69B65E38FE214F7F439AD63 /* Pods */,
+				985F25AE020EED570F5F8AD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8ABF8562159C60E00F3D3E1 /* Build configuration list for PBXNativeTarget "NYSCake_Demo" */;
 			buildPhases = (
+				4C9B1F88B2033D834182BE16 /* [CP] Check Pods Manifest.lock */,
 				C8ABF8312159C60D00F3D3E1 /* Sources */,
 				C8ABF8322159C60D00F3D3E1 /* Frameworks */,
 				C8ABF8332159C60D00F3D3E1 /* Resources */,
@@ -181,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8ABF8592159C60E00F3D3E1 /* Build configuration list for PBXNativeTarget "NYSCake_DemoTests" */;
 			buildPhases = (
+				CD1A63126CE9120E79B4CFE6 /* [CP] Check Pods Manifest.lock */,
 				C8ABF8492159C60E00F3D3E1 /* Sources */,
 				C8ABF84A2159C60E00F3D3E1 /* Frameworks */,
 				C8ABF84B2159C60E00F3D3E1 /* Resources */,
@@ -259,6 +293,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C9B1F88B2033D834182BE16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYSCake_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1A63126CE9120E79B4CFE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYSCake_DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C8ABF8312159C60D00F3D3E1 /* Sources */ = {
@@ -424,6 +497,7 @@
 		};
 		C8ABF8572159C60E00F3D3E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9912D4030BDB8686A0AA8168 /* Pods-NYSCake_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,6 +518,7 @@
 		};
 		C8ABF8582159C60E00F3D3E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3A70C787BF5676D7BE30CA /* Pods-NYSCake_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +539,7 @@
 		};
 		C8ABF85A2159C60E00F3D3E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA05448C9267F7C91B7F7B7 /* Pods-NYSCake_DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +558,7 @@
 		};
 		C8ABF85B2159C60E00F3D3E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AA5E327645D4B566B394F8 /* Pods-NYSCake_DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

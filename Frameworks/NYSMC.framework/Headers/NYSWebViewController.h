@@ -13,7 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NYSWebViewController : UIViewController
 
 - (void)refresh;
-
+@property(assign, nonatomic) BOOL isHiddenNavigationController;
+@property(strong, nonatomic) UIColor *progressBarColor;
 @end
 
 NS_ASSUME_NONNULL_END

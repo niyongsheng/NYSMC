@@ -4,7 +4,7 @@
 //
 //  Created by 倪刚 on 2018/9/25.
 //  Copyright © 2018年 NiYongsheng. All rights reserved.
-//  cocoapods version:0.1.0
+//  cocoapods version:0.1.1
 
 #import <UIKit/UIKit.h>
 

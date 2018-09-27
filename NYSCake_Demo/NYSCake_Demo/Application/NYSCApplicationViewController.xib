@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,18 +21,103 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Application" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9b6-kl-uiw">
-                    <rect key="frame" x="94.5" y="312.5" width="186" height="42"/>
+                    <rect key="frame" x="94.5" y="80" width="186" height="42"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                     <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.69999999999999996" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-be-XSN">
+                    <rect key="frame" x="40" y="142" width="295" height="505"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <mutableString key="text">#import &lt;Foundation/Foundation.h&gt;
+
+typedef void (^SheelBlock)(void);
+typedef void (^ApplicationBlock)(void);
+
+typedef enum : NSUInteger {
+    BootFrom_Sheel,
+    BootFrom_Application,
+} BootFromType;
+
+/**
+ 引导模式
+
+ - NYSCBootMethod_Cold: 冷启动
+ - NYSCBootMethod_Hot: 热启动
+ */
+typedef NS_ENUM(NSInteger,NYSCBootMethod)
+{
+    NYSCBootMethod_Cold = 0,
+    
+    NYSCBootMethod_Hot = 1,
+};
+
+/**
+ 启动优先级
+
+ - NYSCPriorityType_Normal: 默认
+ 
+ - NYSCPriorityType_Sheel: 壳优先
+ 
+ - NYSCPriorityType_Application: 应用优先
+ */
+typedef NS_ENUM(NSInteger,NYSCPriorityType)
+{
+    NYSCPriorityType_Server_Version = 0,
+    
+    NYSCPriorityType_Server_Timestamp = 1,
+    
+    NYSCPriorityType_Server_Status = 2,
+};
+
+@interface NYSCake : NSObject
+/**
+ 初始化
+ 
+ @param days 预计审核天数
+ @param postURL post请求地址
+ @param parameter post验证参数
+ @param method 启动方式
+ */
++ (void)initWithEstimatedAuditDays:(NSInteger)days PostURL:(NSString *)postURL ValidateParameters:(NSDictionary *)parameter BootMethod:(NYSCBootMethod)method;
+
+/**
+ 选择启动控制器
+ 
+ @param priorityType 启动优先级类型
+ @param bootFromType 出错回调
+ @param sheelBlock 壳回调
+ @param applicationBlock 正常应用回调
+ */
++ (void)chooseViewControllerWithPriorityType:(NYSCPriorityType)priorityType errorBootFromType:(BootFromType)bootFromType matchSheelBlock:(SheelBlock)sheelBlock ApplicationBlock:(ApplicationBlock)applicationBlock;
+
+/**
+ 更新服务器中的配置参数
+ */
++ (void)updataServerParameters;
+
+/**
+ 恢复初始状态
+ */
++ (void)restoreDefaults;
+@end
+</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
             </subviews>
             <color key="backgroundColor" red="0.30196078430000001" green="0.57647058819999997" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="9b6-kl-uiw" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Qcn-1N-Npi"/>
+                <constraint firstItem="Ca1-be-XSN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3Nu-uR-xVb"/>
+                <constraint firstAttribute="trailing" secondItem="Ca1-be-XSN" secondAttribute="trailing" constant="40" id="8Um-0d-LBn"/>
+                <constraint firstItem="Ca1-be-XSN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="Ebr-we-XLh"/>
                 <constraint firstItem="9b6-kl-uiw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="S3N-gM-MlW"/>
+                <constraint firstItem="9b6-kl-uiw" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="60" id="dWO-nC-2F8"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Ca1-be-XSN" secondAttribute="bottom" constant="20" id="w3g-Qr-EW9"/>
+                <constraint firstItem="Ca1-be-XSN" firstAttribute="top" secondItem="9b6-kl-uiw" secondAttribute="bottom" constant="20" id="ygX-XX-goe"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="133.59999999999999" y="154.27286356821591"/>
         </view>
     </objects>
 </document>

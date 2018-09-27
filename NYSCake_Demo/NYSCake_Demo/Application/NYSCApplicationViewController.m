@@ -7,6 +7,7 @@
 //
 
 #import "NYSCApplicationViewController.h"
+#import <NYSMC/NYSMC.h>
 
 @interface NYSCApplicationViewController ()
 
@@ -16,17 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.navigationController.navigationBar.hidden = YES; 
+    
+    // 获取服务器中的配置参数（热启动不需要调用此方法）
+    [NYSCake updataServerParameters];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

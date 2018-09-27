@@ -12,7 +12,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NYSCSheelViewController">
             <connections>
-                <outlet property="customBtn" destination="Vzj-Qi-pkh" id="0kN-84-hOG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,38 +21,28 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sheel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUf-dv-VzB">
-                    <rect key="frame" x="141.5" y="312.5" width="92" height="42"/>
+                    <rect key="frame" x="141.5" y="232.5" width="92" height="42"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                     <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bmj-EN-NBk">
-                    <rect key="frame" x="172.5" y="384.5" width="30" height="30"/>
+                    <rect key="frame" x="162.5" y="304.5" width="50" height="50"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="Bmj-EN-NBk" secondAttribute="height" multiplier="1:1" id="9rm-8u-sii"/>
-                        <constraint firstAttribute="width" constant="30" id="pIu-dn-Jhk"/>
+                        <constraint firstAttribute="width" constant="50" id="pIu-dn-Jhk"/>
                     </constraints>
                     <state key="normal" image="Safari"/>
                     <connections>
                         <action selector="safari:" destination="-1" eventType="touchUpInside" id="j72-bO-YGs"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzj-Qi-pkh">
-                    <rect key="frame" x="157.5" y="222.5" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="127-3U-shl"/>
-                        <constraint firstAttribute="width" secondItem="Vzj-Qi-pkh" secondAttribute="height" multiplier="1:1" id="5Tb-Un-bgO"/>
-                    </constraints>
-                    <state key="normal" image="share.png"/>
-                </button>
             </subviews>
             <color key="backgroundColor" red="0.95686274510000002" green="0.47058823529999999" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Bmj-EN-NBk" firstAttribute="top" secondItem="tUf-dv-VzB" secondAttribute="bottom" constant="30" id="GRa-gp-zQF"/>
-                <constraint firstItem="tUf-dv-VzB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="X2r-BE-Aoe"/>
-                <constraint firstItem="Vzj-Qi-pkh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eYO-om-pit"/>
+                <constraint firstItem="tUf-dv-VzB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-80" id="X2r-BE-Aoe"/>
                 <constraint firstItem="tUf-dv-VzB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gMU-Wb-g5U"/>
-                <constraint firstItem="tUf-dv-VzB" firstAttribute="top" secondItem="Vzj-Qi-pkh" secondAttribute="bottom" constant="30" id="vyW-f7-lBg"/>
                 <constraint firstItem="Bmj-EN-NBk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="y0D-MN-vlW"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
@@ -62,6 +51,5 @@
     </objects>
     <resources>
         <image name="Safari" width="668" height="668"/>
-        <image name="share.png" width="60" height="60"/>
     </resources>
 </document>

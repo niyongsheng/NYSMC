@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'NYSMC'
-  s.version          = '0.0.4'
+  s.version          = '0.0.6'
   s.summary          = 'Auto Choose Sheel/Application framework.'
 
   s.homepage         = 'https://github.com/niyongsheng/NYSMC'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NiYongsheng' => 'niyongsheng@outlook.com' }
-  s.source           = { :git => 'https://github.com/niyongsheng/NYSMC.git', :tag => '0.0.4' }
+  s.source           = { :git => 'https://github.com/niyongsheng/NYSMC.git', :tag => '0.0.6' }
 
   s.platform     = :ios
   s.ios.deployment_target = "8.0"

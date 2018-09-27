@@ -11,7 +11,6 @@
 
 @interface NYSCSheelViewController ()
 - (IBAction)safari:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *customBtn;
     
 @end
 
@@ -19,19 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *strResourcesBundle = [[NSBundle mainBundle] pathForResource:@"images" ofType:@"bundle"];
-    NSString *strC = [[NSBundle bundleWithPath:strResourcesBundle] pathForResource:@"refresh" ofType:@"png"];
-    NSLog(@"path:%@", NYSCakeBundle);
-    [_customBtn setBackgroundImage:[UIImage imageNamed:@"images.bundle/backOff"] forState:UIControlStateNormal];
+    self.navigationController.navigationBar.hidden = YES;
+    
     // 获取服务器中的配置参数（热启动不需要调用此方法）
     [NYSCake updataServerParameters];
 }
 
 - (IBAction)safari:(id)sender {
-    NYSWebViewController *webVC = [[NYSWebViewController alloc] init];
-    webVC.title = @"网页";
-    NSLog(@"%@", NYSCakeFrameworkSrcName(@"homePage"));
-    [self presentViewController:webVC animated:YES completion:nil];
-//    [self.navigationController pushViewController:webVC animated:YES];
+    [self.navigationController pushViewController:[[NYSWebViewController alloc] init] animated:YES];
 }
 @end

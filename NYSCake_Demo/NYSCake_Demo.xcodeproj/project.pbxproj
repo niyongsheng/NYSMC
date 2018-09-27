@@ -36,7 +36,6 @@
 		244C1023C2CACA5C463C6CCB /* libPods-NYSCake_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYSCake_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AA5E327645D4B566B394F8 /* Pods-NYSCake_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_DemoTests/Pods-NYSCake_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		9912D4030BDB8686A0AA8168 /* Pods-NYSCake_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYSCake_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYSCake_Demo/Pods-NYSCake_Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		C800D6D6215B961800ED5DD5 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		C8ABF8352159C60D00F3D3E1 /* NYSCake_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYSCake_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ABF8382159C60D00F3D3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8ABF8392159C60D00F3D3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -150,7 +149,6 @@
 				C8ABF8432159C60E00F3D3E1 /* LaunchScreen.storyboard */,
 				C8ABF8462159C60E00F3D3E1 /* Info.plist */,
 				C8ABF8472159C60E00F3D3E1 /* main.m */,
-				C800D6D6215B961800ED5DD5 /* images.bundle */,
 			);
 			path = NYSCake_Demo;
 			sourceTree = "<group>";
@@ -175,6 +173,7 @@
 				C8ABF8312159C60D00F3D3E1 /* Sources */,
 				C8ABF8322159C60D00F3D3E1 /* Frameworks */,
 				C8ABF8332159C60D00F3D3E1 /* Resources */,
+				4E68CFB8C45F8DF6F3E2E898 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +280,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E68CFB8C45F8DF6F3E2E898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYSCake_Demo/Pods-NYSCake_Demo-resources.sh",
+				"${PODS_ROOT}/NYSMC/Resources/images.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/images.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYSCake_Demo/Pods-NYSCake_Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CD1A63126CE9120E79B4CFE6 /* [CP] Check Pods Manifest.lock */ = {
@@ -404,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -457,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

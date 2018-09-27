@@ -20,9 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSString *strResourcesBundle = [[NSBundle mainBundle] pathForResource:@"images" ofType:@"bundle"];
-    NSString *strC = [[NSBundle bundleWithPath:strResourcesBundle] pathForResource:@"homePage" ofType:@"png"];
-    NSLog(@"path:%@", strC);
-    [_customBtn setBackgroundImage:[UIImage imageNamed:strC] forState:UIControlStateNormal];
+    NSString *strC = [[NSBundle bundleWithPath:strResourcesBundle] pathForResource:@"refresh" ofType:@"png"];
+    NSLog(@"path:%@", NYSCakeBundle);
+    [_customBtn setBackgroundImage:[UIImage imageNamed:@"images.bundle/backOff"] forState:UIControlStateNormal];
     // 获取服务器中的配置参数（热启动不需要调用此方法）
     [NYSCake updataServerParameters];
 }

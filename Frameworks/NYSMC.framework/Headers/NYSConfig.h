@@ -9,8 +9,8 @@
 #ifndef NYSConfig_h
 #define NYSConfig_h
 
-#define NYSCakeSrcName(file) [@"images.bundle" stringByAppendingPathComponent:file]
-#define NYSCakeFrameworkSrcName(file) [@"Resources/images.bundle" stringByAppendingPathComponent:file]
+#define NYSCakeBundle(file) [@"images.bundle" stringByAppendingPathComponent:file]
+#define NYSCakeResources(file) [@"Resources/images.bundle" stringByAppendingPathComponent:file]
 
 #define NYSC_ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define NYSC_ScreenHeight [UIScreen mainScreen].bounds.size.height

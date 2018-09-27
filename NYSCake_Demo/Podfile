@@ -8,7 +8,7 @@ target 'NYSCake_Demo' do
   # use_frameworks!
 
   # Pods for NYSCake_Demo
-  pod 'NYSMC' , '~> 0.0.3'
+  pod 'NYSMC' , '~> 0.0.4'
 
   target 'NYSCake_DemoTests' do
     inherit! :search_paths

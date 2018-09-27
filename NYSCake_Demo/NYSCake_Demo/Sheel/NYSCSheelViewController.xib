@@ -44,7 +44,7 @@
                         <constraint firstAttribute="width" constant="60" id="127-3U-shl"/>
                         <constraint firstAttribute="width" secondItem="Vzj-Qi-pkh" secondAttribute="height" multiplier="1:1" id="5Tb-Un-bgO"/>
                     </constraints>
-                    <state key="normal" image="homePage.png"/>
+                    <state key="normal" image="share.png"/>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.95686274510000002" green="0.47058823529999999" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,6 +62,6 @@
     </objects>
     <resources>
         <image name="Safari" width="668" height="668"/>
-        <image name="homePage.png" width="60" height="60"/>
+        <image name="share.png" width="60" height="60"/>
     </resources>
 </document>

@@ -9,7 +9,7 @@
 #ifndef NYSConfig_h
 #define NYSConfig_h
 
-#define NYSCakeBundle(file) [@"images.bundle" stringByAppendingPathComponent:file]
+#define NYSCakeBundle(file) [@"sound.bundle" stringByAppendingPathComponent:file]
 #define NYSCakeResources(file) [@"images.bundle" stringByAppendingPathComponent:file]
 
 #define NYSC_ScreenWidth [UIScreen mainScreen].bounds.size.width

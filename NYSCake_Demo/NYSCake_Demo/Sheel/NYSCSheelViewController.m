@@ -21,10 +21,14 @@
     self.navigationController.navigationBar.hidden = YES;
     
     // 获取服务器中的配置参数（热启动不需要调用此方法）
-    [NYSCake updataServerParameters];
+//    [NYSCake updataServerParameters];
 }
 
 - (IBAction)safari:(id)sender {
-    [self.navigationController pushViewController:[[NYSWebViewController alloc] init] animated:YES];
+    NYSWebViewController *webVC = [[NYSWebViewController alloc] init];
+    webVC.title = @"网页";
+    webVC.progressBarColor = [UIColor colorWithRed:0.17 green:0.43 blue:0.76 alpha:1.00];
+    webVC.isHiddenNavigationController = self.navigationController.navigationBar.hidden;
+    [self.navigationController pushViewController:webVC animated:YES];
 }
 @end

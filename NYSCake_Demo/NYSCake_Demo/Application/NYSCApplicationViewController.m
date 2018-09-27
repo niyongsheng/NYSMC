@@ -20,7 +20,7 @@
     self.navigationController.navigationBar.hidden = YES; 
     
     // 获取服务器中的配置参数（热启动不需要调用此方法）
-    [NYSCake updataServerParameters];
+//    [NYSCake updataServerParameters];
 }
 
 @end

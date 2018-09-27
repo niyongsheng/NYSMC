@@ -8,10 +8,14 @@ Pod::Spec.new do |s|
   s.author           = { 'NiYongsheng' => 'niyongsheng@outlook.com' }
   s.source           = { :git => 'https://github.com/niyongsheng/NYSMC.git', :tag => '0.0.3' }
 
-  s.platform        = :ios, '8.0'
+  s.platform     = :ios
+  s.ios.deployment_target = "8.0"
+
   #s.source_files		= 'Frameworks/**/*.{h,m}'
   s.resources       = 'Resources/images.bundle'
   s.vendored_frameworks = 'Frameworks/NYSMC.framework'
+
   s.frameworks			= 'Foundation', 'UIKit'
   #s.requires_arc   = true
+
 end

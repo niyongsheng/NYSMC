@@ -1,16 +1,16 @@
 PODS:
-  - NYSMC (0.0.2)
+  - NYSMC (0.0.3)
 
 DEPENDENCIES:
-  - NYSMC (~> 0.0.2)
+  - NYSMC (~> 0.0.3)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - NYSMC
 
 SPEC CHECKSUMS:
-  NYSMC: a6fdbdf9199ecc7ff484328508b46eb9b1562649
+  NYSMC: d79afa94e902e8a6baaace1e31ee3973bf77f8f6
 
-PODFILE CHECKSUM: 11c49f9f5aaed2cc5074700797474c25109a98f1
+PODFILE CHECKSUM: e2174df5a04581f510cb058dfbf3ec57eb7f5e27
 
 COCOAPODS: 1.5.2

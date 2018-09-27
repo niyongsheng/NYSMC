@@ -8,9 +8,9 @@
 
 #ifndef NYSConfig_h
 #define NYSConfig_h
-// Pods/NYSMC/Resources/
+
 #define NYSCakeSrcName(file) [@"images.bundle" stringByAppendingPathComponent:file]
-#define NYSCakeFrameworkSrcName(file) [@"/Resources/" stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",file]]
+#define NYSCakeFrameworkSrcName(file) [@"Frameworks/NYSMC.framework/images.bundle" stringByAppendingPathComponent:file]
 
 #define NYSC_ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define NYSC_ScreenHeight [UIScreen mainScreen].bounds.size.height

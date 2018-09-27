@@ -21,9 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 初始化NYSC
-    [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://chicken.qmook.com:8080/api/shelf/getReviewData2" ValidateParameters:nil BootMethod:NYSCBootMethod_Hot];
+    [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://chicken.qmook.com:8080/api/shelf/getReviewData2" ValidateParameters:nil BootMethod:NYSCBootMethod_Cold];
     // 选择分支
-    [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Status errorBootFromType:BootFrom_Application matchSheelBlock:^{
+    [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Status errorBootFromType:BootFrom_Sheel matchSheelBlock:^{
         self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[NYSCSheelViewController alloc] init]];
         [self.window makeKeyAndVisible];
     } ApplicationBlock:^{

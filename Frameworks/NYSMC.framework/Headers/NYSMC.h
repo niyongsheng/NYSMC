@@ -1,10 +1,15 @@
-//
+/*
+╔════════════════════════╗
+‖     Version:0.1.9      ‖
+╚════════════════════════╝
+https://github.com/niyongsheng/NYSMC
+ */
 //  NYSMC.h
 //  NYSMC
 //
 //  Created by 倪刚 on 2018/9/25.
 //  Copyright © 2018年 NiYongsheng. All rights reserved.
-//  cocoapods version:0.1.4
+//
 
 #import <UIKit/UIKit.h>
 

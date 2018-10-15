@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'NYSMC'
-  s.version          = '0.1.6'
+  s.version          = '0.1.9'
   s.summary          = 'Auto Choose Sheel/Application framework.'
 
   s.homepage         = 'https://github.com/niyongsheng/NYSMC'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NiYongsheng' => 'niyongsheng@outlook.com' }
-  s.source           = { :git => 'https://github.com/niyongsheng/NYSMC.git', :tag => '0.1.6' }
+  s.source           = { :git => 'https://github.com/niyongsheng/NYSMC.git', :tag => '0.1.9' }
 
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Frameworks/NYSMC.framework'
 
   s.frameworks			= 'Foundation', 'UIKit'
+  s.dependency      'AFNetworking'
   #s.requires_arc   = true
 
 end

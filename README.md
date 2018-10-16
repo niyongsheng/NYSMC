@@ -107,8 +107,6 @@ NYSMC
 * iOS>=8.0
 * iPhone \ iPad screen anyway
 
-## 有问题反馈
-在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
-
+## Contact Me
 * 邮件(niyongsheng@outlook.com)
 * weibo: [@Ni永胜](https://weibo.com/u/2198015423)

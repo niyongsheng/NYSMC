@@ -18,11 +18,10 @@ NYSMC
 <figure class="half">
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">
-</figure>
-<center class="half">
-    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500"/>
-    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500"/>
-</center>
+
+First Header | Second Header
+------------ | -------------
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png"
 
 ## <a id="Need_Server_API"></a>Need Server API 
 ```java
@@ -102,12 +101,12 @@ NYSMC
 @end
 ```
 ## Remind
-* ARC
-* iOS >= 8.0
-* iPhone \ iPad screen anyway
+- [] ARC
+- [] iOS >= 8.0
+- [] iPhone \ iPad screen anyway
 
 ## Contribution
-Contributions[:lollipop:](https://github.com/niyongsheng/NYSMC/stargazers)   Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
+Contributions[:lollipop:](https://github.com/niyongsheng/NYSMC/stargazers) & Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
 
 ## Contact Me [:email:](niyongsheng@Gmail.com)
 * E-mail: niyongsheng@Outlook.com

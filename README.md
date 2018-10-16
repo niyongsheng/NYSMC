@@ -108,5 +108,5 @@ NYSMC
 * iPhone \ iPad screen anyway
 
 ## Contact Me
-* E-mail: (niyongsheng@outlook.com)
+* E-mail: (niyongsheng@outlook.com,niyongsheng@Gmail.com)
 * Weibo: [@Ni永胜](https://weibo.com/u/2198015423)

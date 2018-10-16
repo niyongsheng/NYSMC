@@ -101,12 +101,14 @@ NYSMC
 }
 @end
 ```
-
 ## Remind
 * ARC
 * iOS >= 8.0
 * iPhone \ iPad screen anyway
 
-## Contact Me
+## Contribution
+Contributions🍭 are welcomed and encouraged❤️.
+
+## Contact Me📩
 * E-mail: (niyongsheng@Outlook.com,niyongsheng@Gmail.com)
 * Weibo: [@Ni永胜](https://weibo.com/u/2198015423)

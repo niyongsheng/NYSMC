@@ -9,7 +9,7 @@ NYSMC
 * Auto Choose Sheel/Application framework.
 
 ## <a id="How_to_use:"></a>How to use:
-* Installation with CocoaPods：`pod 'NYSMC'`
+* Installation with CocoaPods：`pod 'NYSMC','~>0.2.0'`
 * Manual import：
     * Drag All files in the `NYSMC` folder to project
     * Import the main file：`#import <NYSMC/NYSMC.h>`

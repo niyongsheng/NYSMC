@@ -104,9 +104,9 @@ NYSMC
 
 ## Remind
 * ARC
-* iOS>=8.0
+* iOS >= 8.0
 * iPhone \ iPad screen anyway
 
 ## Contact Me
-* 邮件(niyongsheng@outlook.com)
-* weibo: [@Ni永胜](https://weibo.com/u/2198015423)
+* E-mail: (niyongsheng@outlook.com)
+* Weibo: [@Ni永胜](https://weibo.com/u/2198015423)

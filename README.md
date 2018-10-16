@@ -51,21 +51,19 @@ Running MOV | Flow Chart Image
 * Step 2.AppDelegate.m
 ```objc
 #import <NYSMC/NYSMC.h>
-
-#import "SheelViewController.h"
-#import "ApplicationViewController.h"
+#import "tabViewController.h"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // I.初始化NYSC
     [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://xxx.NYSMC.com:8080/api/getReviewData" ValidateParameters:PARM BootMethod:NYSCBootMethod_Cold];
     // II.选择分支
-    [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Version errorBootFromType:BootFrom_Application matchSheelBlock:^{
-    	// 马甲
-        self.window.rootViewController = [[SheelViewController alloc] init];
+    [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Status errorBootFromType:BootFrom_Sheel matchSheelBlock:^{
+        // 马甲
+        self.window.rootViewController = [[tabViewController alloc] init];
         [self.window makeKeyAndVisible];
     } ApplicationBlock:^{
-    	// 应用
-        self.window.rootViewController = [[ApplicationViewController alloc] init];
+        // 应用
+        self.window.rootViewController = [[NYSWebViewController alloc] init];
         [self.window makeKeyAndVisible];
     }];
     

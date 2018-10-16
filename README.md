@@ -20,7 +20,7 @@ Running MOV | Flow Chart Image
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="220" height="370"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="670" height="370">
 
 ## <a id="Server_API_Pattern:"></a>Server API Pattern:
-* I.Need Server API 
+* Step 1.Need Server API 
 ```java
 /** 需要后端组的同学准备一个接口 */
 // Method: POST
@@ -48,7 +48,7 @@ Running MOV | Flow Chart Image
 }
 ```
 
-* II.AppDelegate.m
+* Step 2.AppDelegate.m
 ```objc
 #import <NYSMC/NYSMC.h>
 
@@ -56,9 +56,9 @@ Running MOV | Flow Chart Image
 #import "ApplicationViewController.h"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // 初始化NYSC
+    // I.初始化NYSC
     [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://xxx.NYSMC.com:8080/api/getReviewData" ValidateParameters:PARM BootMethod:NYSCBootMethod_Cold];
-    // 选择分支
+    // II.选择分支
     [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Version errorBootFromType:BootFrom_Application matchSheelBlock:^{
     	// 马甲
         self.window.rootViewController = [[SheelViewController alloc] init];
@@ -69,7 +69,7 @@ Running MOV | Flow Chart Image
         [self.window makeKeyAndVisible];
     }];
     
-    // 获取服务器中的配置参数（热启动不需要调用此方法）
+    // III.获取服务器中的配置参数（热启动不需要调用此方法）
     [NYSCake updataServerParameters];
     
     return YES;
@@ -77,31 +77,20 @@ Running MOV | Flow Chart Image
 ```
 
 ## <a id="NO_Server_API_Pattern:"></a>NO Server API Pattern:
-* I.Need Server API
-```objc
-/** Integration step 2. */
-#import "SheelViewController.h"
-#import <NYSMC/NYSMC.h>
-
-@interface NYSCSheelViewController ()
-- (IBAction)safari:(id)sender;
-
-@end
-
-@implementation NYSCSheelViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    
-}
-
-- (IBAction)safari:(id)sender {
-    [self presentViewController:[[NYSWebViewController alloc] init] animated:YES completion:nil];
-}
-@end
+* Step 1.Add Shell
+   * XCode->Product->Scheme->Edit Scheme->Build->Pre-actions->Add new shell(New run script action)
+```shell
+echo "In the build time script run."
+infoplist="$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH"
+builddate=`date`
+if [[ -n "$builddate" ]]; then
+# if BuildDateString doesn't exist, add it
+/usr/libexec/PlistBuddy -c "Add :BuildDate string $builddate" ${infoplist}
+# and if BuildDateString already existed, update it
+/usr/libexec/PlistBuddy -c "Set :BuildDate string $builddate" ${infoplist}
+fi
 ```
-* II.AppDelegate.m
+* Step 2.AppDelegate.m
 ```objc
 #import <NYSMC/NYSMC.h>
 
@@ -109,9 +98,9 @@ Running MOV | Flow Chart Image
 #import "ApplicationViewController.h"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // 初始化NYSC
-    [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://xxx.NYSMC.com:8080/api/getReviewData" ValidateParameters:PARM BootMethod:NYSCBootMethod_Cold];
-    // 选择分支
+    // I.初始化NYSC
+    [NYSCake initWithEstimatedAuditDays:2 PostURL:nil ValidateParameters:nil BootMethod:NYSCBootMethod_Cold];
+    // II.选择分支
     [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Version errorBootFromType:BootFrom_Application matchSheelBlock:^{
     	// 马甲
         self.window.rootViewController = [[SheelViewController alloc] init];
@@ -121,9 +110,6 @@ Running MOV | Flow Chart Image
         self.window.rootViewController = [[ApplicationViewController alloc] init];
         [self.window makeKeyAndVisible];
     }];
-    
-    // 获取服务器中的配置参数（热启动不需要调用此方法）
-    [NYSCake updataServerParameters];
     
     return YES;
 }

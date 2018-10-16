@@ -16,10 +16,7 @@ NYSMC
 
 ## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
-<img fc="https://raw.githubusercontent.com/niyongsheng/NYSMC/blob/master/flowChart.png" width="200" height="350">
-<!-- ## <a id="The_Framework_Structure_Chart_of_NYSMC"></a>The Framework Structure Chart of NYSMC
-![](http://images0.cnblogs.com/blog2015/497279/201506/132232456139177.png)
-<img src="http://images0.cnblogs.com/blog2015/497279/201506/141358159107893.png" width="30%" height="30%">
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/blob/master/flowChart.png" width="200" height="350">
 
 - `The class of non-red text` in the chart：For inheritance，to use DIY the control of refresh
 - About how to DIY the control of refresh，You can refer the Class in below Chart<br> -->

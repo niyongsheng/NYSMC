@@ -21,7 +21,10 @@ NYSMC
 
 First Header | Second Header
 ------------ | -------------
-<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png"
+(https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png)
+|
+(https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png)
+<img src=""> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png"
 
 ## <a id="Need_Server_API"></a>Need Server API 
 ```java

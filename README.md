@@ -16,10 +16,7 @@ NYSMC
 
 ## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
-<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/blob/master/flowChart.png" width="200" height="350">
-
-- `The class of non-red text` in the chart：For inheritance，to use DIY the control of refresh
-- About how to DIY the control of refresh，You can refer the Class in below Chart<br> -->
+<img src="https://github.com/niyongsheng/NYSMC/blob/master/flowChart.png" width="200" height="350">
 
 ## <a id="Need_Server_API"></a>Need Server API 
 ```java

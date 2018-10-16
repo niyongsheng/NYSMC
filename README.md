@@ -103,9 +103,9 @@ Content from cell 1 | Content from cell 2
 @end
 ```
 ## Remind
-- [ ] ARC
-- [ ] iOS >= 8.0
-- [ ] iPhone \ iPad screen anyway
+- [x] ARC
+- [x] iOS >= 8.0
+- [x] iPhone \ iPad screen anyway
 
 ## Contribution
 Contributions[:lollipop:](https://github.com/niyongsheng/NYSMC/stargazers) & Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)

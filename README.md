@@ -107,8 +107,8 @@ NYSMC
 * iPhone \ iPad screen anyway
 
 ## Contribution
-Contributions[🍭](https://github.com/niyongsheng/NYSMC/stargazers) and Encourage[❤️](https://github.com/niyongsheng/NYSMC/stargazers)
+Contributions[:lollipop:](https://github.com/niyongsheng/NYSMC/stargazers) and Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
 
-## Contact Me📩
+## Contact Me :email:
 * E-mail: (niyongsheng@Outlook.com,niyongsheng@Gmail.com)
 * Weibo: [@Ni永胜](https://weibo.com/u/2198015423)

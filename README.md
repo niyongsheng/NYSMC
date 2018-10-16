@@ -76,7 +76,7 @@ Running MOV | Flow Chart Image
 
 ## <a id="NO_Server_API_Pattern:"></a>NO Server API Pattern:
 * Step 1.Add Shell
-   * XCode->Product->Scheme->Edit Scheme->Build->Pre-actions->Add new shell(New run script action)
+   > XCode->Product->Scheme->Edit Scheme->Build->Pre-actions->Add new shell(New run script action)
 ```shell
 echo "In the build time script run."
 infoplist="$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH"

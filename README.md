@@ -19,7 +19,10 @@ NYSMC
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">
 </figure>
-
+<center class="half">
+    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="300"/>
+    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="300"/>
+</center>
 
 ## <a id="Need_Server_API"></a>Need Server API 
 ```java

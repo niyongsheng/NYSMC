@@ -14,10 +14,10 @@ NYSMC
     * Drag All files in the `NYSMC` folder to project
     * Import the main file：`#import <NYSMC/NYSMC.h>`
 
-## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
-Running Image | Flow Chart
+## <a id="Application_Example_Flowchart_by_NYSMC"></a>Application Example Flowchart by NYSMC
+Running MOV | Flow Chart Image
 ------------ | -------------
-<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="700" height="350">
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="220" height="350"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="670" height="350">
 
 
 ## <a id="Need_Server_API"></a>Need Server API 

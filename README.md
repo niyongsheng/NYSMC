@@ -14,13 +14,13 @@ NYSMC
     * Drag All files in the `NYSMC` folder to project
     * Import the main file：`#import <NYSMC/NYSMC.h>`
 
-## <a id="Application_Instance_by_NYSMC"></a>Application Instance by NYSMC
+## <a id="Application_Instance_by_NYSMC:"></a>Application Instance by NYSMC:
 Running MOV | Flow Chart Image
 ------------ | -------------
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="220" height="370"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="670" height="370">
 
-## <a id="Server_API_Pattern"></a>Server API Pattern
-# <a id="Need_Server_API"></a>Need Server API 
+## <a id="Server_API_Pattern:"></a>Server API Pattern:
+* I.Need Server API 
 ```java
 /** 需要后端组的同学准备一个接口 */
 // Method: POST
@@ -48,9 +48,8 @@ Running MOV | Flow Chart Image
 }
 ```
 
-## <a id="AppDelegate.m"></a>AppDelegate.m
+* II.AppDelegate.m
 ```objc
-/** Integration step 1. */
 #import <NYSMC/NYSMC.h>
 
 #import "SheelViewController.h"
@@ -76,7 +75,9 @@ Running MOV | Flow Chart Image
     return YES;
 }
 ```
-## <a id="NO_Server_API_Pattern"></a>NO Server API Pattern
+
+## <a id="NO_Server_API_Pattern:"></a>NO Server API Pattern:
+* I.Need Server API
 ```objc
 /** Integration step 2. */
 #import "SheelViewController.h"
@@ -100,6 +101,34 @@ Running MOV | Flow Chart Image
 }
 @end
 ```
+* II.AppDelegate.m
+```objc
+#import <NYSMC/NYSMC.h>
+
+#import "SheelViewController.h"
+#import "ApplicationViewController.h"
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // 初始化NYSC
+    [NYSCake initWithEstimatedAuditDays:2 PostURL:@"http://xxx.NYSMC.com:8080/api/getReviewData" ValidateParameters:PARM BootMethod:NYSCBootMethod_Cold];
+    // 选择分支
+    [NYSCake chooseViewControllerWithPriorityType:NYSCPriorityType_Server_Version errorBootFromType:BootFrom_Application matchSheelBlock:^{
+    	// 马甲
+        self.window.rootViewController = [[SheelViewController alloc] init];
+        [self.window makeKeyAndVisible];
+    } ApplicationBlock:^{
+    	// 应用
+        self.window.rootViewController = [[ApplicationViewController alloc] init];
+        [self.window makeKeyAndVisible];
+    }];
+    
+    // 获取服务器中的配置参数（热启动不需要调用此方法）
+    [NYSCake updataServerParameters];
+    
+    return YES;
+}
+```
+
 ## Remind
 - [x] ARC
 - [x] iOS >= 8.0

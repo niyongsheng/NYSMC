@@ -18,9 +18,8 @@ NYSMC
 <figure class="half">
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">
-
-First Header                          | Second Header
-------------------------------------- | -------------------------------------
+First Header | Second Header
+------------ | -------------
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">
                                       |
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">

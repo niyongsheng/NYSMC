@@ -19,12 +19,11 @@ NYSMC
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
    <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">
 
-First Header | Second Header
------------- | -------------
-(https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png)
-|
-(https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png)
-<img src=""> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png"
+First Header                          | Second Header
+------------------------------------- | -------------------------------------
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">
+                                      |
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="500" height="350">
 
 ## <a id="Need_Server_API"></a>Need Server API 
 ```java

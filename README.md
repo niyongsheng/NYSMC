@@ -16,7 +16,7 @@ NYSMC
 
 ## <a id="Application_Startup_Example_by_NYSMC"></a>Application Startup Example by NYSMC
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="200" height="350">
-<img src="https://github.com/niyongsheng/NYSMC/blob/master/flowChart.png" width="200" height="350">
+<img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png">
 
 ## <a id="Need_Server_API"></a>Need Server API 
 ```java

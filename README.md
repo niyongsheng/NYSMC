@@ -109,6 +109,6 @@ NYSMC
 ## Contribution
 Contributions[:lollipop:](https://github.com/niyongsheng/NYSMC/stargazers) and Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
 
-## Contact Me :email:
-* E-mail: (niyongsheng@Outlook.com,niyongsheng@Gmail.com)
+## Contact Me [:email:](niyongsheng@Gmail.com)
+* E-mail: niyongsheng@Outlook.com
 * Weibo: [@Ni永胜](https://weibo.com/u/2198015423)

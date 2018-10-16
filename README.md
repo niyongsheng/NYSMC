@@ -102,7 +102,7 @@ Running MOV | Flow Chart Image
 - [x] iPhone \ iPad screen anyway
 
 ## Contribution
-Contributions[:lollipop:](https://github.com/niyongsheng/NYSMC/stargazers)  Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
+Contributions[:lollipop:](18853936112)  Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
 
 ## Contact Me [:email:](niyongsheng@Gmail.com)
 * E-mail: niyongsheng@Outlook.com

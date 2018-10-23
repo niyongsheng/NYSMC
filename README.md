@@ -4,6 +4,8 @@ NYSMC
 [![](https://img.shields.io/badge/platform-iOS-orange.svg)](https://developer.apple.com/ios/)
 [![](http://img.shields.io/travis/CocoaPods/CocoaPods/master.svg?style=flat)](https://travis-ci.org/CocoaPods/CocoaPods)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/niyongsheng/NYSMC/blob/master/README.md)
+[![](https://img.shields.io/github/release/caiyongji/emoji-list.svg)](https://github.com/niyongsheng/NYSMC/releases)
+[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/lang/chinese.svg)](README-CN.md)
 ===
 * 自动选择加载“壳应用”/“真应用”的简单框架。
 * Auto Choose Sheel/Application framework.
@@ -119,8 +121,8 @@ fi
 - [x] iPhone \ iPad screen anyway
 
 ## Contribution
-Contributions[:lollipop:](18853936112)  Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
+Contributions[:lollipop:](+8618853936112)  Encourage[:heart:](https://github.com/niyongsheng/NYSTK/stargazers)
 
-## Contact Me [:email:](niyongsheng@Gmail.com)
+## Contact Me [:octocat:](https://niyongsheng.github.io)
 * E-mail: niyongsheng@Outlook.com
 * Weibo: [@Ni永胜](https://weibo.com/u/2198015423)

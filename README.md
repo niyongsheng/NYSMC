@@ -4,7 +4,6 @@ NYSMC
 [![](https://img.shields.io/badge/platform-iOS-orange.svg)](https://developer.apple.com/ios/)
 [![](http://img.shields.io/travis/CocoaPods/CocoaPods/master.svg?style=flat)](https://travis-ci.org/CocoaPods/CocoaPods)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/niyongsheng/NYSMC/blob/master/LICENSE)
-[![](https://img.shields.io/github/release/caiyongji/emoji-list.svg)](https://github.com/niyongsheng/NYSMC/releases)
 ===
 * 自动选择加载“壳应用”/“真应用”的简单框架。
 * Auto Choose Sheel/Application framework.

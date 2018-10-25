@@ -8,17 +8,17 @@ NYSMC
 * 自动选择加载“壳应用”/“真应用”的简单框架。
 * Auto Choose Sheel/Application framework.
 
-## <a id="How_to_use:"></a>How to use:
+## <a id="How_to_use"></a>How to use
 * Installation with CocoaPods：`pod 'NYSMC','~>0.2.0'`
 * Manual import：
     * Drag All files in the `NYSMC` folder to project
     * Import the main file：`#import <NYSMC/NYSMC.h>`
 
-## <a id="Application_Instance_by_NYSMC:"></a>Application Instance by NYSMC:
+## <a id="Application_Instance_by_NYSMC"></a>Application Instance by NYSMC
 Running MOV | Flow Chart Image
 ------------ | -------------
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="220" height="370"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="670" height="370">
-### Example Program:
+### - Example Program
 > <img src="https://github.com/niyongsheng/NYSMC/blob/master/IMG_0049.jpg?raw=true" width="350" height="240">
 
 ## <a id="Server_API_Pattern:"></a>Server API Pattern:

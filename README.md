@@ -19,7 +19,8 @@ Running MOV | Flow Chart Image
 ------------ | -------------
 <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/Demonstration.mov" width="220" height="370"> | <img src="https://raw.githubusercontent.com/niyongsheng/NYSMC/master/%20flowChart.png" width="670" height="370">
 > Example Program
-<img src="https://github.com/niyongsheng/NYSMC/blob/master/IMG_0049.jpg?raw=true" width="370" height="220">
+> <img src="https://github.com/niyongsheng/NYSMC/blob/master/IMG_0049.jpg?raw=true" width="370" height="220">
+===
 ## <a id="Server_API_Pattern:"></a>Server API Pattern:
 * Step 1.Need Server API 
 ```java

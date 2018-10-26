@@ -1,4 +1,4 @@
-![(logo)](https://github.com/niyongsheng/NYSMC/blob/master/MC_logo.png?raw=true)
+![(logo)](https://github.com/niyongsheng/NYSMC/blob/master/logo.png?raw=true)
 NYSMC
 ===
 [![](https://img.shields.io/badge/platform-iOS-orange.svg)](https://developer.apple.com/ios/)

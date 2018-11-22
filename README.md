@@ -121,7 +121,7 @@ fi
 - [x] iPhone \ iPad screen anyway
 
 ## Contribution
-Reward[:lollipop:](+8618853936112)  Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
+Reward[:lollipop:](https://github.com/niyongsheng/niyongsheng.github.io/blob/master/Beg/README.md)  Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
 
 ## Contact Me [:octocat:](https://niyongsheng.github.io)
 * E-mail: niyongsheng@Outlook.com

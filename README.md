@@ -124,6 +124,6 @@ fi
 Reward[:lollipop:](https://github.com/niyongsheng/niyongsheng.github.io/blob/master/Beg/README.md)  Encourage[:heart:](https://github.com/niyongsheng/NYSMC/stargazers)
 
 ## Contact Me [:octocat:](https://niyongsheng.github.io)
-* QQ: 2672688843
+* QQ: [2672688843](https://user.qzone.qq.com/2672688843)
 * E-mail: niyongsheng@Outlook.com
 * Weibo: [@Ni永胜](https://weibo.com/u/2198015423)
